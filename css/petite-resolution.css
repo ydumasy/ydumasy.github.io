@@ -1,0 +1,119 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+main {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    border: none;
+}
+
+nav {
+    background-color: #0288D1;
+    display: block;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+.nav1, .nav2 {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+nav a {
+    font-size: 14px;
+    color: #fff;
+}
+
+header {
+    margin-bottom: 0;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-image: url("../selfie_rond.png");
+    background-repeat: no-repeat;
+    background-position: top 63% right 20%;
+}
+
+aside {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    border: none;
+}
+
+.photo {
+    display: none;
+}
+
+.loisirs {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+/* Résolution pour smartphone */
+@media screen and (max-width: 767px) 
+{
+nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    overflow: hidden;
+}
+
+.nav1, .nav2 {
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    background-position: bottom 20px left 50%;
+    padding-top: 0;
+    padding-bottom: 200px;
+    margin-left: 0;
+}
+
+header hr {
+    display: none;
+}
+
+.formation1, .formation2, .formation3, .experience1, .experience2, .contenu-recommandations {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.premier, .suivant {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.formation, .experience, .recommandations {
+    margin-top: 25px;
+}
+}
