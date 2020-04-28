@@ -117,7 +117,6 @@ header p {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
-    padding-left: 10px;
     list-style: none;
 }
 
