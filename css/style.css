@@ -36,11 +36,6 @@ h3 {
     font-weight: 500;
 }
 
-h4 {
-    font-size: 14px;
-    font-weight: 400;
-}
-
 a {
     color: #000;
 }
@@ -149,6 +144,11 @@ header p {
 
 .recommandation1 {
     width: 50%;
+}
+
+.recommandations h3 {
+    font-size: 14px;
+    font-weight: 400;
 }
 
 /* Éléments de la partie aside */
