@@ -81,7 +81,6 @@ aside {
 }
 
 .loisirs {
-    margin-bottom: 15px;
     margin-top: 0;
 }
 
@@ -116,7 +115,7 @@ header hr {
     display: none;
 }
 
-.formation1, .formation2, .formation3, .experience1, .experience2, .contenu-recommandations {
+.formation1, .formation2, .formation3, .experience1, .experience2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -131,7 +130,7 @@ header hr {
     margin-bottom: 0;
 }
 
-.formation, .experience, .recommandations {
+.formation, .experience, .competences {
     margin-top: 25px;
 }
 
